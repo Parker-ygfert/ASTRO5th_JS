@@ -74,7 +74,7 @@ button:active {
   }
 }
 .close {
-  height: 0;
+  height: 0px;
   overflow: hidden;
   animation-name: closing;
   animation-duration: 1s;
