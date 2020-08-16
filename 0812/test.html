@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    li {
+      background-color: #ccc;
+      border: 1px solid black;
+      margin-bottom: 10px;
+      font-size: 20px;
+    }
+  </style>
+  <script>
+    window.addEventListener("DOMContentLoaded", function() {
+      let ul = document.querySelector("ul");
+      let list = document.querySelectorAll("li");
+
+      ul.addEventListener("click", function() {
+        // console.log("ul")
+      })
+      list.forEach(function(li) {
+        li.addEventListener("click", function() {
+          // console.log("li")
+        })
+      })
+
+    })
+  </script>
+</head>
+<body>
+  <ul>
+    <li>aaa</li>
+    <li>bbb</li>
+    <li>ccc</li>
+    <li>ddd</li>
+  </ul>
+</body>
+</html>
